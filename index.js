@@ -1,4 +1,5 @@
-require("dotenv").config();
+import dotenv from "dotenv";
+dotenv.config();
 import mysql from "mysql2";
 import express from "express";
 const app = express();
